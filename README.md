@@ -6,7 +6,7 @@ A desktop app for antique hunters to value silver coins and silverware in real t
 
 ---
 
-## 📦 Installation (for users)
+##  Installation (for users)
 
 ### Option A — Run from source (simplest)
 
@@ -31,7 +31,7 @@ See the [Releases](../../releases) page — grab the latest `.exe` (Windows) or 
 
 ---
 
-## 🚀 Publishing to GitHub (step by step)
+##  Publishing to GitHub (step by step)
 
 ### First time setup
 
@@ -74,7 +74,7 @@ git push
 
 ---
 
-## 📱 Making a Standalone App (no Python needed for users)
+##  Making a Standalone App (no Python needed for users)
 
 This is how you turn the script into a proper `.exe` (Windows) or `.app` (Mac) that anyone can download and double-click.
 
@@ -122,7 +122,7 @@ pyinstaller --onefile --name "silver-tracker" silver_tracker.py
 
 ---
 
-## 📤 Publishing the app as a GitHub Release
+##  Publishing the app as a GitHub Release
 
 This is how to add your `.exe` / `.app` to GitHub so people can download it directly:
 
@@ -142,7 +142,7 @@ Users can then download your app from: `https://github.com/YOUR_USERNAME/silver-
 
 ---
 
-## 💡 Tips & Notes
+##  Tips & Notes
 
 - **Yellow highlighted rows** in the tracker mean the price came from a fallback source (not APMEX directly) — still accurate but worth knowing.
 - **Manual spot override** on the Calculator tab lets you use the app completely offline — just look up today's silver spot on your phone and enter it.
@@ -151,7 +151,7 @@ Users can then download your app from: `https://github.com/YOUR_USERNAME/silver-
 
 ---
 
-## 🛠 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -162,6 +162,6 @@ Users can then download your app from: `https://github.com/YOUR_USERNAME/silver-
 
 ---
 
-## 📄 Licence
+##  Licence
 
 MIT — free to use, share, and modify.
