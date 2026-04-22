@@ -1,4 +1,4 @@
-# 🥈 Silver Tracker Pro
+# Silver Tracker
 
 A desktop app for antique hunters to value silver coins and silverware in real time using live spot prices.
 
