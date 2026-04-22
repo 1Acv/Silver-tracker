@@ -565,7 +565,7 @@ tree.tag_configure('fallback', foreground='#ffcc00')
 
 tree.pack(fill=BOTH, expand=True)
 
-hint_lbl = ttk.Label(tab_tracker, text="💡 Click 'Weight' header to toggle Grams/Oz  |  * = fallback price source  |  Change currency in header", font=("Segoe UI", 8), bootstyle="secondary")
+hint_lbl = ttk.Label(tab_tracker, text=" Click 'Weight' header to toggle Grams/Oz  |  * = fallback price source  |  Change currency in header", font=("Segoe UI", 8), bootstyle="secondary")
 hint_lbl.pack(pady=5)
 
 # ================= TAB 2: MELT CALCULATOR =================
@@ -628,13 +628,13 @@ info_frame.pack(fill=BOTH, expand=True, pady=10)
 info_text = """
 HOW TO SPOT REAL SILVER (STERLING) vs PLATE:
 
-✅ REAL SILVER (STERLING)
+ REAL SILVER (STERLING)
 • LOOK FOR MARKS: "925", "Sterling", "Ster", ".925".
 • BRITISH MARKS: A "Lion Passant" (walking lion) symbol guarantees Sterling.
 • COLOR: Has a warm, soft white luster. Tarnishes black/grey.
 • MAGNET TEST: Silver is NON-magnetic. If it sticks, it's not silver.
 
-❌ SILVER PLATE (LOW VALUE)
+ SILVER PLATE (LOW VALUE)
 • LOOK FOR MARKS: 
   - "EPNS" (Electro Plated Nickel Silver)
   - "EP" (Electro Plated)
